@@ -4,6 +4,13 @@
     <title>Pomodoro Timer First Brainstorm</title>
     <meta charset="UTF-8">
     <link rel="clock icon" href="https://github.com/Kayla-Phillips/CSE110-lab2/blob/main/icons8-alarm-clock-16.png?raw=true">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button:hover {
+            background-color:hsl(159, 92%, 20%) !important;
+            color: rgb(245,245,245);
+        }
+    </style>
   </head>
   <body>
     <header>
@@ -11,7 +18,7 @@
         <h2>04/15/2025</h2>
         <nav>
             <a href="#attendance">Attendance</a>
-            <a href="background">Background</a>
+            <a href="#background">Background</a>
             <a href="#ideas">Ideas</a>
             <a href="#to-do">To-Do</a>
             <a href="#form">Join</a>
@@ -19,18 +26,22 @@
     </header>
     <hr>
     <main>
-        <section id="attendance">
+        <section id="attendance" class="linked">
             <h3>Attendance</h3>
-            <b>Members present at this meeting:</b>
-            <ul>
-                <li>Kayla Phillips</li>
-                <li>...</li>
-            </ul>
+            <b class="subhead">Members present at this meeting:</b>
+            <div id="members">
+                <div>Person 1</div>
+                <div>Person 2</div>
+                <div>Person 3</div>
+                <div>Person 4</div>
+                <div>Person 5</div>
+                <div>Person 6</div>
+            </div>
         </section>
-        <section id="background">
+        <section id="background" class="linked">
             <h3>Background Information on Pomodoro Technique</h3>
             <div>
-                <b>Development</b>
+                <b class="subhead">Development</b>
                 <p>The <span>Pomodoro Technique</span> is a time management method developed 
                     by <em>Francesco Cirillo</em> in the late <i>1980s</i>. <br>
                     It uses a kitchen timer to break work into intervals, 
@@ -51,7 +62,7 @@
                 
             </div>
         </section>
-        <section id="ideas">
+        <section id="ideas" class="linked">
             <h3>Ideas</h3>
             <ul>
                 <li>Make it look like a tomato timer to represent the technique's origin</li>
@@ -62,7 +73,7 @@
                 <source src="clock-video.mp4" type="video/mp4">
             </video>
         </section>
-        <section id="to-do">
+        <section id="to-do" class="linked">
             <h3>To-Do</h3>
             <ol>
                 <li>Make Github repo</li>
@@ -70,7 +81,7 @@
                 <li>Assign tasks</li>
             </ol>
         </section>
-        <section id="form">
+        <section id="form" class="print-style linked">
             <h3>Join Our Team!</h3>
             <form>
                 <fieldset>
