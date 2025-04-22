@@ -1,7 +1,9 @@
 # Daily Meeting Notes
 
-**Date** MM-DD-YYYY
-**Team** [Team Name]
+**Date** MM-DD-YYYY  
+
+**Team** [Team Name]  
+
 **Leader:** [Name]
 
 ## Attendees
