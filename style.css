@@ -73,10 +73,12 @@ nav a {
 }
 
 nav a:active {
-    color: color-mix(in srgb, blue 50%, red 50%),black;
+    color: purple; /* fallback */
+    color: color-mix(in srgb, blue 50%, red 50%);
 }
 
 #to-do {
+    color:rgb(128, 0, 0); /* fallback */
     color:color(srgb 0.5 0 0)
 }
 
@@ -119,9 +121,10 @@ section:has(img) {
 
 footer {
     background-color: black;
+    color: white;
 
     p {
-        color:white;
+        text-decoration: underline;
     }
 }
 
@@ -152,7 +155,7 @@ footer {
     }
 }
 
-@media (min-width: 600px) and (max-width: 1024) {
+@media (min-width: 600px) and (max-width: 1024px) {
     #members {
         grid-template-columns: repeat(2, 1fr);;
     }
