@@ -122,7 +122,6 @@ section:has(img) {
 footer {
     background-color: black;
     color: white;
-
     p {
         text-decoration: underline;
     }
